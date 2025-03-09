@@ -4,11 +4,11 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import MODEL.Database;
+import Model.Database;
 
-import MODEL.Post;
+import Model.Post;
 
-import MODEL.User;
+import Model.User;
 
 public class ReadUserPosts {
 

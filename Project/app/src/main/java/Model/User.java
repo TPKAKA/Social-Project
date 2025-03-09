@@ -1,4 +1,4 @@
-package MODEL;
+package Model;
 
 import java.util.ArrayList;
 

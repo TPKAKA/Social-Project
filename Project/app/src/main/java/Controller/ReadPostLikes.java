@@ -2,9 +2,9 @@ package Controller;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import MODEL.Database;
+import Model.Database;
 
-import MODEL.Post;
+import Model.Post;
 
 public class ReadPostLikes {
 
