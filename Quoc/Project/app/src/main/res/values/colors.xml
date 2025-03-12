@@ -5,4 +5,10 @@
     <color name="cyan">#00ACC1</color>
     <color name="dark_cyan">#00838F</color>
     <color name="gray_text">#757575</color>
+    <color name="scorpion">#FAAAAA</color>
+    <color name="blue">#0000FF</color>
+    <color name="black">#000000</color>
+    <color name="wild_sand">#FF9966</color>
+
+
 </resources>

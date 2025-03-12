@@ -26,17 +26,17 @@
     </style>
     <style name="seperator">
         <item name="android:layout_width"> match_parent</item>
-        <item name="android:layout_height">@dimen/_5sdp</item>
+        <item name="android:layout_height">5dp</item>
         <item name="android:background"> @color/wild_sand</item>
     </style>
     <style name="edit_text">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:background">@drawable/edit_text</item>
-        <item name="android:paddingLeft">@dimen/_15sdp</item>
-        <item name="android:paddingRight">@dimen/_15sdp</item>
-        <item name="android:paddingTop">@dimen/_10sdp</item>
-        <item name="android:paddingBottom">@dimen/_10sdp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
     </style>
     <style name="Theme.Project" parent="android:Theme.Material.Light.NoActionBar" />
 

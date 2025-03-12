@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="@dimen/_15sdp">
+    android:padding="15dp">
 
     <TextView
         android:id="@+id/comment_author"
@@ -10,10 +10,10 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:fontFamily="@font/segoebold"
-        android:textSize="@dimen/_16sdp"
+        android:textSize="16dp"
         android:textColor="@color/scorpion"
         android:layout_alignParentLeft="true"
-        android:layout_aliggnParentTop="true"/>
+        android:layout_alignParentTop="true"/>
 
 
     <TextView
@@ -21,9 +21,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/segoe"
-        android:textSize="@dimen/_15sdp"
-        android:layout_marginHorizontal="@dimen/_10sdp"
-        android:layout_marginVertical="@dimen/_5sdp"
+        android:textSize="15dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="5dp"
         android:textColor="@color/scorpion"
         android:layout_below="@+id/comment_author"
         android:layout_alignParentLeft="true"/>
@@ -33,7 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/segoe"
-        android:textSize="@dimen/_14sdp"
+        android:textSize="14dp"
         android:textColor="@color/scorpion"
         android:layout_below="@+id/comment_content"
         android:layout_alignParentRight="true"/>

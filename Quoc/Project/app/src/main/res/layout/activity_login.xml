@@ -9,7 +9,7 @@
     <EditText
         android:id="@+id/email"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:hint="Email"
         android:inputType="textEmailAddress"
         android:padding="12dp"
@@ -21,7 +21,7 @@
     <EditText
         android:id="@+id/password"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:hint="Password"
         android:inputType="textPassword"
         android:padding="12dp"
@@ -43,7 +43,7 @@
     <TextView
         android:id="@+id/create_account"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:text="Create an account"
         android:textColor="@color/cyan"
         android:textSize="16sp"

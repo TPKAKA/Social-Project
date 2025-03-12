@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:background="@color/white">
 
@@ -17,7 +18,7 @@
             android:id="@+id/post_edittext"
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:hint="What's on your mind?"
             android:padding="12dp"
             android:background="@drawable/edittext_background"
@@ -38,7 +39,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@android:drawable/ic_menu_edit"
-            android:tint="@color/cyan"
+            app:tint="@color/cyan"
             android:contentDescription="Modify Profile"
             android:layout_marginStart="8dp" />
 
@@ -47,7 +48,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@android:drawable/ic_menu_close_clear_cancel"
-            android:tint="@color/cyan"
+            app:tint="@color/cyan"
             android:contentDescription="Logout"
             android:layout_marginStart="8dp" />
     </LinearLayout>

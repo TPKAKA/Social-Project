@@ -9,7 +9,7 @@
     <EditText
         android:id="@+id/firstname"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:hint="First Name"
         android:padding="12dp"
         android:background="@drawable/edittext_background"
@@ -20,7 +20,7 @@
     <EditText
         android:id="@+id/lastname"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:hint="Last Name"
         android:padding="12dp"
         android:background="@drawable/edittext_background"
@@ -31,7 +31,7 @@
     <EditText
         android:id="@+id/email"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:hint="Email"
         android:inputType="textEmailAddress"
         android:padding="12dp"
