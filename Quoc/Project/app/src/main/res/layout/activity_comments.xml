@@ -1,57 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
     android:orientation="vertical"
-    tools:context=".CommentsActivity">
+    android:background="@color/white">
 
-    <include layout="@layout/post" />
-
-    <View style="@style/seperator" />
-
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingHorizontal="@dimen/_11sdp">
-        <Button
-            android:id="@+id/post"
-            style="@style/button"
-            android:layout_width="@dimen/_80sdp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:layout_marginLeft="@dimen/_11sdp"
-            android:padding="@dimen/_5sdp"
-            android:text="Post"
-            android:textSize="@dimen/_14sdp" />
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:background="@color/light_cyan"
+        android:elevation="2dp">
 
         <EditText
             android:id="@+id/comment_edittext"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:background="@color/transparent"
-            android:hint="Type a comment"
-            android:textSize="@dimen/_16sdp"
-            android:fontFamily="@font/segoe"
-            android:textColorHint="@color/gray"
-            android:textColor="@color/black"
-            android:layout_alignParentLeft="true"
-            android:layout_centerVertical="true"
-            android:layout_toLeft0f="@+id/post"/>
+            android:hint="Write a comment..."
+            android:padding="12dp"
+            android:background="@drawable/edittext_background"
+            android:textColor="@color/dark_cyan"
+            android:textColorHint="@color/gray_text" />
 
-    </RelativeLayout>
+        <Button
+            android:id="@+id/post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Post"
+            android:backgroundTint="@color/cyan"
+            android:textColor="@color/white"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
 
-    <ListView
-
-        android:id="@+id/comments_list"
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:divider="@color/wild_sand"
-        android:listSelector="@color/transparent"
-        android:dividerHeight="@dimen/_5sdp"/>
+        android:layout_height="match_parent">
 
+        <ListView
+            android:id="@+id/comments_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/light_cyan"
+            android:dividerHeight="1dp" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 </LinearLayout>

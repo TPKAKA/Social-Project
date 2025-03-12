@@ -2,81 +2,51 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/rounded_edit_text"
     android:orientation="vertical"
-    android:padding="16dp">
-
-
-    <!-- Title -->
-    <TextView
-        android:id="@+id/title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:paddingBottom="40dp"
-        android:text="Modify your profile"
-        android:textColor="#02A1FC"
-        android:textSize="40sp"
-        android:textStyle="bold" />
-
-
-
+    android:padding="24dp"
+    android:background="@color/white">
 
     <EditText
         android:id="@+id/firstname"
-        android:layout_width="364dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:background="@drawable/rounded_edit_text"
-        android:hint="FirstName"
-        android:hintTextColor="#B0B0B0"
-        android:inputType="textPassword"
-        android:minHeight="50dp"
-        android:textSize="15sp"
-        android:padding="16dp"
-        android:textColor="#606060" />
+        android:hint="First Name"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:textColor="@color/dark_cyan"
+        android:textColorHint="@color/gray_text"
+        android:layout_marginBottom="16dp" />
 
     <EditText
         android:id="@+id/lastname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="15dp"
-        android:background="@drawable/rounded_edit_text"
-        android:hint="LastName"
-        android:hintTextColor="#B0B0B0"
-        android:inputType="textPassword"
-        android:minHeight="50dp"
-        android:padding="16dp"
-        android:textSize="15sp"
-        android:textColor="#606060" />
-
+        android:hint="Last Name"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:textColor="@color/dark_cyan"
+        android:textColorHint="@color/gray_text"
+        android:layout_marginBottom="16dp" />
 
     <EditText
         android:id="@+id/email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="25dp"
-        android:background="@drawable/rounded_edit_text"
         android:hint="Email"
-        android:hintTextColor="#B0B0B0"
-        android:inputType="textPassword"
-        android:minHeight="50dp"
-        android:textSize="15sp"
-        android:padding="16dp"
-        android:textColor="#606060" />
-
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:textColor="@color/dark_cyan"
+        android:textColorHint="@color/gray_text"
+        android:layout_marginBottom="24dp" />
 
     <Button
         android:id="@+id/submitButton"
-        android:layout_width="89dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/rounded_button"
-        android:layoutDirection="inherit"
         android:text="Submit"
-        android:textColor="@android:color/white"
-        android:textSize="22sp"
-        android:textStyle="bold" />
-
+        android:backgroundTint="@color/cyan"
+        android:textColor="@color/white"
+        android:padding="12dp"
+        android:elevation="4dp" />
 </LinearLayout>
