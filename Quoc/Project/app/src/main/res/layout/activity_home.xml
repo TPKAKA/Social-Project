@@ -38,19 +38,19 @@
             android:id="@+id/modify"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@android:drawable/ic_menu_edit"
-            app:tint="@color/cyan"
+            android:layout_marginStart="8dp"
             android:contentDescription="Modify Profile"
-            android:layout_marginStart="8dp" />
+            android:src="@android:drawable/ic_menu_edit"
+            app:tint="@color/cyan" />
 
         <ImageView
             android:id="@+id/logout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@android:drawable/ic_menu_close_clear_cancel"
-            app:tint="@color/cyan"
+            android:layout_marginStart="8dp"
             android:contentDescription="Logout"
-            android:layout_marginStart="8dp" />
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            app:tint="@color/cyan" />
     </LinearLayout>
 
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
